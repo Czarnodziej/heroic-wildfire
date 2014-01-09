@@ -1,0 +1,47 @@
+<nav id="lewa-kolumna">
+    <ul id="sidenav">
+        <li>
+            <a href="{{ URL::route('article.list') }}">
+                <i class="icon-fixed-width icon-book"></i>Teksty dowolne</a>
+        </li>
+        <li id="rozwin">
+            <a href="{{ URL::route('javascript') }}">
+                <i class="icon-fixed-width icon-magic"></i>Javascript</a>
+            <a href="{{ URL::route('game') }}">Czysty JavaScript</a>
+            <a href="{{ URL::route('javascript') }}">jQuery</a>
+        </li>
+        <li>
+            <a href="{{ URL::route('autor') }}">
+                <i class="icon-fixed-width icon-thumbs-up">
+                </i>Autorskie opisy</a>
+        </li>
+    </ul>
+    <div class="social">
+        <a href="//www.facebook.com/marcin.marcinowy.5"
+           target="_blank">
+            <span class="fb"></span>
+        </a>
+        <a href="//twitter.com/Czarnodziej"
+           target="_blank">
+            <span class="tw"></span>
+        </a>
+        <a href="{{ URL::route('kontakt') }}">
+            <span class="mail"></span>
+        </a>
+        <a href="//github.com/Czarnodziej"
+           target="_blank">
+            <span class="gh"></span>
+        </a>
+        <p>
+            <a href="//www.pyrocms.com" target="_blank">
+                <img src="{{ theme:path }}/img/pyrocms.png">
+            </a>
+        </p>
+        <p>
+            <a href="//www.phptherightway.com" target="_blank">
+                <img src="//www.phptherightway.com/images/banners/btn1-120x90.png"
+                     alt="PHP: The Right Way"/>
+            </a>
+        </p>
+    </div>
+</nav>

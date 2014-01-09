@@ -1,0 +1,21 @@
+<footer id="stopka-strony">
+    <div class="social">
+        <a href="//www.facebook.com/marcin.marcinowy.5" target="_blank">
+            <span class="fb"></span>
+        </a>
+        <a href="//twitter.com/Czarnodziej" target="_blank">
+            <span class="tw"></span>
+        </a>
+        <a href="{{ URL::route('kontakt') }}">
+            <span class="mail"></span>
+        </a>
+        <a href="//github.com/Czarnodziej" target="_blank">
+            <span class="gh"></span>
+        </a>
+    </div>
+    <p>©2013. Kopiowanie treści tekstów zawartych na stronie
+        bez zgody autora jest czynem niegodnym.<br>
+        <a href="//github.com/Czarnodziej/evasive-cactuar/commits/master"
+           target="_blank">Ostatnia modyfikacja:
+            {{daty::dateMod("l j f Y", daty::get_page_mod_time())}}</a></p>
+</footer>

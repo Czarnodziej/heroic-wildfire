@@ -19,7 +19,7 @@ class Module_Blog extends Module
 				'br' => 'Blog',
 				'pt' => 'Blog',
 				'el' => 'Ιστολόγιο',
-                            'fa' => 'بلاگ',
+                'fa' => 'بلاگ',
 				'he' => 'בלוג',
 				'id' => 'Blog',
 				'lt' => 'Blogas',

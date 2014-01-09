@@ -42,6 +42,7 @@ addons/shared_addons/widgets/*
 addons/shared_addons/themes/*
 !addons/shared_addons/themes/conjuction
 !addons/shared_addons/themes/minimal
+!addons/shared_addons/themes/happy
 !addons/shared_addons/themes/index.html
 
 !addons/shared_addons/plugins

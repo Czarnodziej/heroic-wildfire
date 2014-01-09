@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,
+              user-scalable=no">
+        <meta name="description" content="Wojaże związane z tworzeniem stron
+              internetowych, źródłowo udokumentowane oraz zabawnie podane.
+              Tego drugiego nie jestem pewien.">
+        <meta name="keywords" content="web design, web development, humor,
+              portfolio, php, laravel, cakephp, jquery, javascript, js" />
+        <title>Wesoła wycieczka w treść - praktyczny Web Developing.</title>
+        <link href='//fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext'
+              rel='stylesheet'>
+
+        <!-- Set a base location for assets -->
+        <base href="{{ url:base }}"/>
+        <!-- End base -->
+
+        {{ theme:css file="style.min.css" }}
+        <!--[if lt IE 9]>
+        {{ theme:css file="style-ie8.css" }}
+      <![endif]-->
+        <!--[if lt IE 8]>
+          {{ theme:css file="font-awesome-ie7.min.css" }}
+          {{ theme:css file="style-ie7.css" }}
+        <![endif]-->
+        <!--[if lt IE 7]>
+          {{ theme:css file="style-ie6.css" }}
+        <![endif]-->
+        {{ theme:favicon }}
+        {{ theme:js file="vendor/modernizr-2.6.2.min.js" }}
+    </head>
